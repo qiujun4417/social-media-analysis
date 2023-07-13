@@ -1,0 +1,37 @@
+**/.gradle
+**/.settings
+**/.idea/*
+**/bin/*
+**/build/*
+**/.project
+**/.classpath
+**/target
+**/out/*
+*.iml
+**/*.iml
+**/.DS_Store
+**/.idea_backup
+**/.vscode
+Pacts
+mock/local/hana
+mock/slowtest/hana
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+# Ignore all these local secret
+# Refer: https://jira.eurekacloud.io/browse/DX-514
+!/tmp/
+
+tmp/*
+socialmediaextracter/spiders/__pycache__/*
+socialmediaextracter/__pycache__/*
